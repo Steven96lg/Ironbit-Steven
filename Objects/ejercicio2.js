@@ -23,6 +23,7 @@ const band = {
   let bandInfo  = `Guns N' Roses es una banda de rock originaria de ${band['nationality']}. La banda se formó en ${band.formed} y ha estado activa desde entonces. Su estilo musical principal es el ${band['genre']}. Lanzaron su primer álbum titulado "${band.albums[0].name}" en ${band.albums[0].released}.`;
   
   // Don't edit the code below here
+  const section = document.querySelector('.section');
   
   let para1 = document.createElement('p');
   para1.textContent = bandInfo;
